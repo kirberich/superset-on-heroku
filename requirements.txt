@@ -33,7 +33,7 @@ jmespath==0.9.3
 kombu==3.0.37
 Mako==1.0.6
 Markdown==2.6.8
-MarkupSafe==1.0
+MarkupSafe==1.1.1
 numpy==1.13.0
 pandas==0.19.2
 parsedatetime==2.0
