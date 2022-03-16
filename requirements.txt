@@ -9,11 +9,11 @@ celery==3.1.25
 cffi==1.10.0
 click==6.7
 colorama==0.3.9
-cryptography==1.9
+cryptography
 defusedxml==0.5.0
 docutils==0.13.1
 Flask==0.12.2
-Flask-AppBuilder==1.9.1
+Flask-AppBuilder
 Flask-Babel==0.11.2
 Flask-Cache==0.13.1
 Flask-Login==0.2.11
