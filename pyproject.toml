@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cauldron-reporting"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+sqlparse = "==0.4.3"
+apache-superset = "==2.1.0rc3"
+python-dotenv = "^1.0.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+migrate = "FLASK_APP=superset SUPERSET_CONFIG_PATH=superset_config.py superset db history"
